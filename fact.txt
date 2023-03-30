@@ -1,0 +1,16 @@
+import java.io.*;
+import java.util.*;
+
+public class trial {
+
+    public static void main(String[] args) {
+     Scanner a =new Scanner(System.in);
+     System.out.println("Enter a number :");
+     int x = a.nextInt();
+     int b=1;
+     for (int i=1; i<=x; i++){
+        b=b*i;
+    }
+    System.out.println("The factorial for Given number is :" + b);
+}
+}

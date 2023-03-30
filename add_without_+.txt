@@ -1,0 +1,15 @@
+import java.util.*;
+public class trial {
+    public static void main(String[] args) {
+    // take input
+    Scanner a = new Scanner(System.in);
+    System.out.println("Enter first number : ");
+    int x = a.nextInt();
+    System.out.println("Enter second number : ");
+    int y= a.nextInt();
+    
+    // additiion of two numbers without + operator
+    int z= (int)Math.addExact(x, y);
+    System.out.println("Addition of given numbers is : " +z);
+}
+}

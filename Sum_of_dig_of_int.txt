@@ -1,0 +1,19 @@
+import java.util.*;
+public class trial {
+    public static void main(String[] args) {
+    // take input
+    Scanner a = new Scanner(System.in);
+    System.out.println("Enter a number : ");
+    int x = a.nextInt();
+    int z=0;
+    
+    // Separate individual digit and add
+    while(x>0){
+       int n = x%10;
+       z=z+n;
+       x=x/10;
+    }
+    //print output
+    System.out.println("Sum of all digits :"+ z);
+}
+}
