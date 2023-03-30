@@ -1,0 +1,23 @@
+import java.util.*;
+public class trial {
+    // make function for reverse
+    static int rev(int n){
+        int x,y=0;
+        while(n!=0){
+         x =n%10;
+            y=(y*10)+x;
+            n=n%10;
+        }
+        return y;
+    }
+    public static void main(String[] args) {
+    // take input
+    Scanner a= new Scanner(System.in);
+    System.out.println("Enter a Number :");
+    int b= a.nextInt();
+    
+        // call reverse function created
+    int r=rev(b);
+    System.out.println("Reverse of given number is : "+ r);
+    }
+}

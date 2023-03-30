@@ -1,0 +1,14 @@
+import java.io.*;
+import java.util.*;
+public class trial {
+    public static void main(String[] args) {
+        int x=1;
+      add(x);
+}
+public static void add(int x){
+   if (x<=10){
+    System.out.print(x +",");
+    add(x+1);
+   } 
+}
+}

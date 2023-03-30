@@ -1,0 +1,14 @@
+import java.io.*;
+import java.util.*;
+class trial{
+    public static void main(String[] args) {
+        Scanner a = new Scanner(System.in);
+        System.out.println("Enter the Year :");
+        int x = a.nextInt();
+       if(x%2 ==0){
+        System.out.println("Leap Year!");
+       }
+       else
+        System.out.println("Not a Leap Year!!");
+}
+}
